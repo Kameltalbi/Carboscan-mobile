@@ -4,6 +4,17 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.time.LocalDate
 
+// ── User Model ──────────────────────────────────────────────────────────────
+@Entity(tableName = "users")
+data class User(
+    @PrimaryKey val uid: String,
+    val email: String,
+    val displayName: String?,
+    val photoUrl: String?,
+    val createdAt: Long = System.currentTimeMillis(),
+    val lastLoginAt: Long = System.currentTimeMillis()
+)
+
 // ── Scope GHG Protocol ──────────────────────────────────────────────────────
 enum class Scope(val label: String, val color: Long) {
     SCOPE1("Scope 1 · Direct", 0xFF4ADE80),
