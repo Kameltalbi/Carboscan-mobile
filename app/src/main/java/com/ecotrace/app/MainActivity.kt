@@ -15,6 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.ecotrace.app.ui.screens.*
@@ -40,11 +41,11 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-sealed class Screen(val route: String, val label: String, val icon: ImageVector) {
-    object Home : Screen("home", "Tableau", Icons.Default.Dashboard)
-    object Add : Screen("add", "Ajouter", Icons.Default.AddCircle)
-    object Scan : Screen("scan", "Scanner", Icons.Default.QrCodeScanner)
-    object History : Screen("history", "Historique", Icons.Default.History)
+sealed class Screen(val route: String, val labelResId: Int, val icon: ImageVector) {
+    object Home : Screen("home", R.string.nav_home, Icons.Default.Dashboard)
+    object Add : Screen("add", R.string.nav_add, Icons.Default.AddCircle)
+    object Scan : Screen("scan", R.string.nav_scan, Icons.Default.QrCodeScanner)
+    object History : Screen("history", R.string.nav_history, Icons.Default.History)
 }
 
 @Composable
@@ -80,7 +81,7 @@ fun EcoTraceNavigation() {
                                 )
                             )
                         },
-                        label = { Text(screen.label, fontSize = 10.sp) },
+                        label = { Text(androidx.compose.ui.res.stringResource(screen.labelResId), fontSize = 10.sp) },
                         colors = NavigationBarItemDefaults.colors(
                             selectedIconColor = EcoGreen,
                             selectedTextColor = EcoGreen,

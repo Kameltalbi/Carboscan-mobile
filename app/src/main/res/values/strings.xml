@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">EcoTrace</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Tableau</string>
+    <string name="nav_add">Ajouter</string>
+    <string name="nav_scan">Scanner</string>
+    <string name="nav_history">Historique</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">Tableau de bord</string>
+    <string name="home_empty_title">Commencez votre suivi carbone !</string>
+    <string name="home_empty_message">Ajoutez vos premières émissions pour calculer votre empreinte carbone mensuelle</string>
+    <string name="home_empty_button">Ajouter une émission</string>
+    <string name="home_empty_hint">ou utilisez l\'onglet Scanner pour vos achats</string>
+    <string name="home_total_label">EMPREINTE TOTALE DU MOIS</string>
+    <string name="home_products_scanned">PRODUITS SCANNÉS</string>
+    <string name="home_scope_distribution">RÉPARTITION PAR SCOPE</string>
+    <string name="home_history_6months">HISTORIQUE 6 MOIS</string>
+    <string name="home_personalized_advice">CONSEILS PERSONNALISÉS</string>
+    <string name="home_national_comparison">COMPARAISON NATIONALE</string>
+    
+    <!-- Score Labels -->
+    <string name="score_excellent">Excellent</string>
+    <string name="score_good">Bon</string>
+    <string name="score_average">Moyen</string>
+    <string name="score_high">Élevé</string>
+    <string name="score_very_high">Très élevé</string>
+    
+    <!-- Comparisons -->
+    <string name="comparison_vs_france">Vs. Française (%d kg/mois)</string>
+    <string name="comparison_vs_objective">Vs. Objectif 2050 (%d kg/mois)</string>
+    <string name="comparison_you">Vous</string>
+    <string name="comparison_french_average">Moyenne française</string>
+    <string name="comparison_objective_2050">Objectif 2050</string>
+    
+    <!-- Scopes -->
+    <string name="scope1">Scope 1</string>
+    <string name="scope2">Scope 2</string>
+    <string name="scope3">Scope 3</string>
+    <string name="scope1_desc">Émissions directes</string>
+    <string name="scope2_desc">Énergie indirecte</string>
+    <string name="scope3_desc">Autres émissions</string>
+    
+    <!-- Categories -->
+    <string name="category_car_gasoline">Voiture essence</string>
+    <string name="category_car_diesel">Voiture diesel</string>
+    <string name="category_car_electric">Voiture électrique</string>
+    <string name="category_natural_gas">Gaz naturel (chauffage)</string>
+    <string name="category_fuel_oil">Fioul (chauffage)</string>
+    <string name="category_electricity">Électricité</string>
+    <string name="category_train">Train</string>
+    <string name="category_plane_short">Avion court-courrier</string>
+    <string name="category_plane_long">Avion long-courrier</string>
+    <string name="category_meat_beef">Viande (bœuf)</string>
+    <string name="category_meat_other">Viande (porc/volaille)</string>
+    <string name="category_shopping_clothes">Achats vêtements</string>
+    <string name="category_shopping_electronics">Achats électronique</string>
+    <string name="category_streaming">Streaming vidéo</string>
+    <string name="category_waste">Déchets</string>
+    
+    <!-- Units -->
+    <string name="unit_km">km</string>
+    <string name="unit_kwh">kWh</string>
+    <string name="unit_m3">m³</string>
+    <string name="unit_liters">L</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_euros">€</string>
+    <string name="unit_hours">heures</string>
+    <string name="unit_kg_co2e">kg CO₂e</string>
+    <string name="unit_t_co2e">t CO₂e</string>
+    
+    <!-- Add Entry Screen -->
+    <string name="add_title">Ajouter une émission</string>
+    <string name="add_select_category">Sélectionnez une catégorie</string>
+    <string name="add_value_label">Valeur (%s)</string>
+    <string name="add_note_label">Note (optionnel)</string>
+    <string name="add_note_hint">Ex: Trajet Paris-Lyon</string>
+    <string name="add_button">Ajouter l\'émission</string>
+    <string name="add_success">Émission ajoutée avec succès</string>
+    <string name="add_error_value">Veuillez entrer une valeur valide</string>
+    <string name="add_error_too_high">⚠️ La valeur semble trop élevée pour cette catégorie</string>
+    
+    <!-- Scan Screen -->
+    <string name="scan_title">Scanner un produit</string>
+    <string name="scan_permission_required">Permission caméra requise</string>
+    <string name="scan_permission_denied">Permission caméra refusée</string>
+    <string name="scan_manual_entry">Saisie manuelle</string>
+    <string name="scan_barcode_label">Code-barres</string>
+    <string name="scan_product_name">Nom du produit</string>
+    <string name="scan_brand">Marque</string>
+    <string name="scan_category">Catégorie</string>
+    <string name="scan_weight">Poids (g)</string>
+    <string name="scan_co2_factor">Facteur CO₂e (kg/100g)</string>
+    <string name="scan_add_button">Ajouter le produit</string>
+    <string name="scan_product_found">Produit trouvé !</string>
+    <string name="scan_product_not_found">Produit non trouvé</string>
+    <string name="scan_success">Produit ajouté avec succès</string>
+    
+    <!-- History Screen -->
+    <string name="history_title">Historique</string>
+    <string name="history_emissions_tab">Émissions (%d)</string>
+    <string name="history_products_tab">Produits (%d)</string>
+    <string name="history_empty">Aucune donnée ce mois</string>
+    <string name="history_empty_message">Ajoutez vos premières émissions\nen appuyant sur +</string>
+    <string name="history_delete">Supprimer</string>
+    
+    <!-- Products -->
+    <string name="product_top3_title">Top 3 produits à fort impact</string>
+    <string name="product_total">Total produits</string>
+    <string name="product_count">%d produits</string>
+    
+    <!-- Advice -->
+    <string name="advice_reduce_car">Privilégiez les transports en commun ou le vélo pour vos trajets courts</string>
+    <string name="advice_reduce_plane">Limitez vos voyages en avion et privilégiez le train quand c\'est possible</string>
+    <string name="advice_reduce_meat">Réduisez votre consommation de viande rouge, notamment de bœuf</string>
+    <string name="advice_reduce_energy">Optimisez votre consommation d\'énergie : isolation, LED, appareils efficaces</string>
+    <string name="advice_reduce_waste">Réduisez vos déchets : compostage, recyclage, réparation</string>
+    <string name="advice_reduce_shopping">Privilégiez les achats d\'occasion et la réparation plutôt que le neuf</string>
+    
+    <!-- Common -->
+    <string name="loading">Chargement…</string>
+    <string name="error">Erreur</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="save">Enregistrer</string>
+    <string name="close">Fermer</string>
+    
+    <!-- FAB -->
+    <string name="fab_add_emission">Ajouter une émission</string>
+</resources>
