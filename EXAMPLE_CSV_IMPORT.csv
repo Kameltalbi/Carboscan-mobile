@@ -1,0 +1,21 @@
+Date,Libellé,Montant,Fournisseur,Catégorie (optionnel)
+2024-01-15,Shell Station Paris 15ème,85.50,Shell,
+2024-01-20,Facture AWS Janvier 2024,450.00,Amazon Web Services,SERVICES_CLOUD
+2024-02-01,Billet Air France CDG-JFK,680.00,Air France,
+2024-02-05,Fournitures Office Depot,125.30,Office Depot,
+2024-02-10,Facture EDF Février,320.00,EDF,ELECTRICITE_LOCAUX
+2024-02-12,Uber trajet client,45.20,Uber,
+2024-02-15,Engie Gaz Naturel,180.00,Engie,
+2024-02-18,Dell Ordinateur portable,1250.00,Dell,MATERIEL_INFORMATIQUE
+2024-02-20,DHL Colis express,28.50,DHL,
+2024-02-22,Total Station Diesel,92.00,Total,
+2024-02-25,Azure Cloud Services,380.00,Microsoft,SERVICES_CLOUD
+2024-03-01,Billet SNCF Paris-Lyon,85.00,SNCF,
+2024-03-05,Ikea Mobilier bureau,650.00,Ikea,MOBILIER
+2024-03-08,Staples Fournitures,78.90,Staples,
+2024-03-10,Facture EDF Mars,295.00,EDF,
+2024-03-12,Ryanair Paris-Barcelone,120.00,Ryanair,
+2024-03-15,AWS S3 Storage,125.00,Amazon Web Services,
+2024-03-18,BP Station essence,68.00,BP,
+2024-03-20,Google Cloud Platform,220.00,Google,
+2024-03-22,Chronopost Livraison,15.50,Chronopost,

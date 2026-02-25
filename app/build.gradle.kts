@@ -119,5 +119,14 @@ dependencies {
     // Coil pour chargement d'images
     implementation("io.coil-kt:coil-compose:2.5.0")
 
+    // Gson pour parsing JSON (convertisseur devises, facteurs d'émission)
+    implementation("com.google.code.gson:gson:2.10.1")
+
+    // ZXing pour génération QR codes (signature de rapport)
+    implementation("com.google.zxing:core:3.5.2")
+
+    // Firebase Remote Config (facteurs d'émission internationaux)
+    implementation("com.google.firebase:firebase-config-ktx")
+
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
